@@ -95,4 +95,19 @@ ol {
   grid-row: 4;
 }
 
+a:hover {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  size: 400px;
+  color: pink;
+  border: dashed 50px yellow;
 
+
+}
+
+@media screen and (max-width: 900px) {
+  p { 
+      background-color: black;
+      color: red;
+      text-transform: uppercase;
+  }
+}
